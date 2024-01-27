@@ -1,4 +1,4 @@
-```python
+
 import json
 import boto3
 import os
@@ -35,5 +35,4 @@ def lambda_handler(event, context):
     )
     
     #Configure the message to send one time once someone fills the form. Eventbridge will handle it from here
-    
-```
+
