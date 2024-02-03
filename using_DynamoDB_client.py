@@ -30,7 +30,7 @@ def lambda_handler(event, context):
     
     #Writes the thanksgiver's info to the Notifer Table
     dynamodb.put_item(
-        TableName = 'Notifier',
+        TableName = 'dynamodb-table-name',
         Item = final_json
     )
     
