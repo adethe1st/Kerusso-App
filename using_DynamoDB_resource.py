@@ -4,7 +4,7 @@ import os
 
 
 dynamodb = boto3.resource('dynamodb')
-table = dynamodb.Table('Notifier')
+table = dynamodb.Table('dynamodb-table-name')
 
 sns = boto3.client('sns')
 
